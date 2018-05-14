@@ -1,9 +1,9 @@
 # MediaPack
-Media Kit for DigitalNote XDN
+Media kit for DigitalNote XDN
 
 Official links for DigitalNote XDN
 
-The 6 current official channels for the DigitalNote community are as follows.  
+The 6 current official channels for the DigitalNote XDN community are as follows.  
 
     1) Website (http://www.digitalnote.biz)
     2) Discord (https://discord.gg/nhJYEtj)
