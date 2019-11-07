@@ -1,5 +1,7 @@
 # MediaPack
 
+THIS MEDIA PACK WILL BE UPDATED WITH NEW LOGOS AND CONTENT ON 12/1/2019
+
 The 6 current official channels for the DigitalNote XDN community are as follows.  
 
     1) Website (http://www.digitalnote.biz)
