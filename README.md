@@ -1,6 +1,6 @@
 # MediaPack
 
-THIS MEDIA PACK WILL BE UPDATED WITH NEW LOGOS AND CONTENT ON 12/1/2019
+THIS MEDIA PACK WILL BE UPDATED WITH NEW LOGOS AND CONTENT ON 12/1/2020
 
 The 6 current official channels for the DigitalNote XDN community are as follows.  
 
@@ -11,6 +11,6 @@ The 6 current official channels for the DigitalNote XDN community are as follows
     5) Facebook (https://www.facebook.com/digitalnote)
     6) GitHub (https://github.com/DigitalNoteXDN)
 
-Official email is dev@digitalnote.dev
+Official email is dev@digitalnote.biz
 
 If you need additional art work or media please email dev@digitalnote.biz
