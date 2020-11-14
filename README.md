@@ -11,6 +11,6 @@ The 6 current official channels for the DigitalNote XDN community are as follows
     5) Facebook (https://www.facebook.com/digitalnote)
     6) GitHub (https://github.com/DigitalNoteXDN)
 
-Official email is dev@digitalnote.biz
+Official email is dev@digitalnote.org
 
-If you need additional art work or media please email dev@digitalnote.biz
+If you need additional art work or media please email dev@digitalnote.org
