@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="DigitalNote DN logo">
+  <title>DigitalNote</title>
+  <defs>
+    <linearGradient id="dnBg" x1="0" y1="0" x2="0" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#49C9FF"/>
+      <stop offset="0.30" stop-color="#49C9FF"/>
+      <stop offset="1" stop-color="#624DAF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="500" cy="500" r="500" fill="url(#dnBg)"/>
+
+  <!-- Trailing pixel squares (semi-transparent white) -->
+  <g fill="#ffffff" fill-opacity="0.55">
+    <rect x="108" y="369" width="72" height="72"/>
+    <rect x="204" y="468" width="72" height="72"/>
+    <rect x="300" y="565" width="72" height="72"/>
+  </g>
+
+  <!-- Solid pixel squares (white) attached to D -->
+  <g fill="#ffffff">
+    <rect x="204" y="369" width="72" height="72"/>
+    <rect x="300" y="369" width="72" height="72"/>
+    <rect x="300" y="468" width="72" height="72"/>
+
+    <!--
+      D letter:
+      Outer: stem at x=396..457 with top/bottom flats meeting a half-ellipse on the right.
+        Top flat:    y=370, x=396..509
+        Right arc:   half-ellipse cx=509, cy=503, rx=119, ry=133  (max x=628 at y=503)
+        Bottom flat: y=636, x=396..509
+      Counter (hole): flat top/bottom/left edges, single smooth half-ellipse on the right.
+        Left flat:   x=458, y=424..582
+        Top flat:    y=424, x=458..507
+        Right arc:   half-ellipse cx=504, cy=503, rx=62, ry=79  (smooth curve through max x=565)
+        Bottom flat: y=582, x=502..458
+    -->
+    <path d="M 396 370
+             L 509 370
+             A 119 133 0 0 1 509 636
+             L 396 636
+             Z
+             M 458 424
+             L 458 582
+             L 502 582
+             A 62 79 0 0 0 507 424
+             Z" fill-rule="evenodd"/>
+
+    <!--
+      N letter:
+      Left vertical stroke:  x=656..674 (width 19), y=371..636
+      Right vertical stroke: x=858..876 (width 19), y=371..636
+      Diagonal stroke: horizontal width ~24, slope dx/dy ~ 0.798.
+      Unclipped diagonal corners would be (648,371), (671,371), (882,636), (859,636),
+      but those extend 8px left of the left stem at top and 6px right of the right stem at bottom,
+      creating visual "tails". The diagonal is clipped to the N's bounding box (x=656..876)
+      at the top-left and bottom-right corners.
+    -->
+    <polygon points="656,371 671,371 876,628 876,636 859,636 656,382"/>
+    <!--
+      Left vertical stem: the top-right corner is sliced off along the diagonal's right edge,
+      from (671,371) running at slope 0.798 down to (674,375) where it rejoins the stem's inside.
+    -->
+    <polygon points="656,371 671,371 674,375 674,636 656,636"/>
+    <!--
+      Right vertical stem: bottom-left corner sliced off along the diagonal's left edge,
+      from (858,635) running at slope 0.798 down to (859,636).
+    -->
+    <polygon points="858,371 876,371 876,636 859,636 858,635"/>
+  </g>
+</svg>
